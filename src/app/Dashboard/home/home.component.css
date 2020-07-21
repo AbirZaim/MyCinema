@@ -1,0 +1,133 @@
+.p{
+  padding: 25;
+  margin: 90;
+  color: black;
+  font-size: large;
+}
+.container{
+  background-color: #d8d8d8;
+  width: 100%;
+  border-radius: 10px;
+  padding: 2px;
+}
+.col-md-9{
+
+  max-width: 89%;
+  flex: 100%;
+  width: 100%;
+}
+.panel-body{
+  background-color: #ffff;
+  padding: 5px;
+}
+.clickable {
+  cursor: pointer;
+}
+.pill-nav a {
+  display: inline-flex;
+  color: black;
+  text-align: center;
+
+  padding: 9px;
+  text-decoration: none;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+/* Change the color of links on mouse-over */
+.pill-nav a:hover {
+  background-color: rgb(173, 133, 238);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.pill-nav a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+.blocks{
+  border-style: ridge;
+  background-color: #dfdddd;
+  margin: 5px;
+  border-radius: 5px;
+}
+.block-wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+.blocks:hover{
+  
+  border-style: inset;
+}
+.cine-nom{
+  
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.display{
+  margin-top: 20px;
+  background-color: aqua;
+  margin: 5px;
+}
+.panel-proj{
+  width: 100%;
+  max-width: 100%;
+  display: inline-block;
+  justify-content: space-between;
+}
+.list-seance{
+  display: block;
+  justify-content: center;
+}
+.salles-heading{
+  width: 100%;
+  margin: 3px;
+
+}
+.thebody{
+  
+  flex: auto;
+  justify-content: space-between;
+}
+.myBtn{
+  margin : 5px;
+  width : 40px;
+  color:#f1f510 ;
+  border-radius: 5px;
+  background-color: rgb(110, 2, 143);
+}
+.myBtn-sel{
+  
+  margin : 5px;
+  width : 40px;
+  color:rgb(110, 2, 143) ;
+  border-radius: 5px;
+  background-color:#f1f510 ;
+}
+.myBtn-res{
+  margin : 5px;
+  width : 40px;
+  color:black ;
+  border-radius: 5px;
+  background-color:#d8d8d8 ;
+}
+.btnSubmit{
+  background-color: white;
+  border: 3px solid #983aaf;
+  color: #983aaf;
+  text-transform: uppercase;
+  height: inherit;
+  width: inherit;
+  transition: background-color 0.5s ease, color 1s ease;
+  cursor: pointer;
+  box-shadow: 2px 2px rgba(77, 77, 77, 0.5);
+}
+
+.btnSubmit:hover {
+  background-color: #983aaf;
+  color: white;
+}
+.btnSubmit:active{
+  border: 2px dotted;
+}

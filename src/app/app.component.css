@@ -1,0 +1,38 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color:#f1f510;
+    color: rgb(110, 2, 143);
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  .spacer {
+    flex: 1;
+  }
+
+
+  .image{
+    padding: 5px;
+  }
+  .content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d8d8d8;
+  }
+  .b{
+    height: 40px;
+  }
+  .titre{
+    font-size: 1.3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+  }
